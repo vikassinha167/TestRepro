@@ -1,0 +1,13 @@
+[project]
+name = "contract-intelligence"
+version = "0.1.0"
+description = "Multi-agent enterprise Contract Intelligence & Risk Scoring on Azure AI Foundry."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
